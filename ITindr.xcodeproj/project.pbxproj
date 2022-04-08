@@ -8,20 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		1042C30027FDBA67008A1810 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1042C2FF27FDBA67008A1810 /* SignInViewController.swift */; };
+		107E0BD82800055600F7B8B2 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107E0BD42800055600F7B8B2 /* CloseButton.swift */; };
+		107E0BD92800055600F7B8B2 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107E0BD52800055600F7B8B2 /* TagView.swift */; };
+		107E0BDA2800055600F7B8B2 /* TagListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107E0BD62800055600F7B8B2 /* TagListView.swift */; };
+		107E0BDE2800074B00F7B8B2 /* AboutYorSelfScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107E0BDD2800074B00F7B8B2 /* AboutYorSelfScreenViewController.swift */; };
 		10BBF6B027FC065300378AED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BBF6AF27FC065300378AED /* AppDelegate.swift */; };
 		10BBF6B227FC065300378AED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BBF6B127FC065300378AED /* SceneDelegate.swift */; };
 		10BBF6B427FC065300378AED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BBF6B327FC065300378AED /* ViewController.swift */; };
-		10BBF6B727FC065300378AED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10BBF6B527FC065300378AED /* Main.storyboard */; };
-		10BBF6B927FC065400378AED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10BBF6B827FC065400378AED /* Assets.xcassets */; };
-		10BBF6BC27FC065400378AED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10BBF6BA27FC065400378AED /* LaunchScreen.storyboard */; };
-		10BBF6C827FC257B00378AED /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10BBF6C727FC257B00378AED /* Montserrat-Bold.ttf */; };
-		10BBF6CA27FC258A00378AED /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10BBF6C927FC258A00378AED /* Montserrat-Regular.ttf */; };
 		10BBF6CD27FC4E4F00378AED /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BBF6CC27FC4E4F00378AED /* StartScreenViewController.swift */; };
 		10BBF6D327FC73F300378AED /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BBF6D227FC73F300378AED /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1042C2FF27FDBA67008A1810 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		107E0BD42800055600F7B8B2 /* CloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
+		107E0BD52800055600F7B8B2 /* TagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		107E0BD62800055600F7B8B2 /* TagListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagListView.swift; sourceTree = "<group>"; };
+		107E0BD72800055600F7B8B2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		107E0BDD2800074B00F7B8B2 /* AboutYorSelfScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutYorSelfScreenViewController.swift; sourceTree = "<group>"; };
+		107E0BE428004DFC00F7B8B2 /* TagListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagListView.h; sourceTree = "<group>"; };
 		10BBF6AC27FC065300378AED /* ITindr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITindr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10BBF6AF27FC065300378AED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10BBF6B127FC065300378AED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,9 +60,38 @@
 			path = SignInScreen;
 			sourceTree = "<group>";
 		};
+		107E0BD22800055600F7B8B2 /* TagListView */ = {
+			isa = PBXGroup;
+			children = (
+				107E0BD42800055600F7B8B2 /* CloseButton.swift */,
+				107E0BD52800055600F7B8B2 /* TagView.swift */,
+				107E0BD62800055600F7B8B2 /* TagListView.swift */,
+				107E0BD72800055600F7B8B2 /* Info.plist */,
+			);
+			name = TagListView;
+			path = "../../../Downloads/TagListView-master/TagListView";
+			sourceTree = "<group>";
+		};
+		107E0BDC2800072000F7B8B2 /* AboutYorSelfScreen */ = {
+			isa = PBXGroup;
+			children = (
+				107E0BDD2800074B00F7B8B2 /* AboutYorSelfScreenViewController.swift */,
+			);
+			path = AboutYorSelfScreen;
+			sourceTree = "<group>";
+		};
+		107E0BE328004DEA00F7B8B2 /* TagListView */ = {
+			isa = PBXGroup;
+			children = (
+				107E0BE428004DFC00F7B8B2 /* TagListView.h */,
+			);
+			path = TagListView;
+			sourceTree = "<group>";
+		};
 		10BBF6A327FC065300378AED = {
 			isa = PBXGroup;
 			children = (
+				107E0BE328004DEA00F7B8B2 /* TagListView */,
 				10BBF6AE27FC065300378AED /* ITindr */,
 				10BBF6AD27FC065300378AED /* Products */,
 			);
@@ -74,6 +108,7 @@
 		10BBF6AE27FC065300378AED /* ITindr */ = {
 			isa = PBXGroup;
 			children = (
+				107E0BDC2800072000F7B8B2 /* AboutYorSelfScreen */,
 				1042C2FE27FDBA2C008A1810 /* SignInScreen */,
 				10BBF6D127FC73CB00378AED /* SignUpSceen */,
 				10BBF6CB27FC4E3200378AED /* StartScreen */,
@@ -82,6 +117,7 @@
 				10BBF6B127FC065300378AED /* SceneDelegate.swift */,
 				10BBF6B327FC065300378AED /* ViewController.swift */,
 				10BBF6B527FC065300378AED /* Main.storyboard */,
+				107E0BD22800055600F7B8B2 /* TagListView */,
 				10BBF6B827FC065400378AED /* Assets.xcassets */,
 				10BBF6BD27FC065400378AED /* Info.plist */,
 				10BBF6BA27FC065400378AED /* LaunchScreen.storyboard */,
@@ -123,7 +159,6 @@
 			buildPhases = (
 				10BBF6A827FC065300378AED /* Sources */,
 				10BBF6A927FC065300378AED /* Frameworks */,
-				10BBF6AA27FC065300378AED /* Resources */,
 			);
 			buildRules = (
 			);
@@ -167,21 +202,6 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		10BBF6AA27FC065300378AED /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				10BBF6C827FC257B00378AED /* Montserrat-Bold.ttf in Resources */,
-				10BBF6BC27FC065400378AED /* LaunchScreen.storyboard in Resources */,
-				10BBF6B927FC065400378AED /* Assets.xcassets in Resources */,
-				10BBF6CA27FC258A00378AED /* Montserrat-Regular.ttf in Resources */,
-				10BBF6B727FC065300378AED /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		10BBF6A827FC065300378AED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -191,8 +211,12 @@
 				10BBF6B027FC065300378AED /* AppDelegate.swift in Sources */,
 				10BBF6B227FC065300378AED /* SceneDelegate.swift in Sources */,
 				1042C30027FDBA67008A1810 /* SignInViewController.swift in Sources */,
+				107E0BD82800055600F7B8B2 /* CloseButton.swift in Sources */,
+				107E0BDE2800074B00F7B8B2 /* AboutYorSelfScreenViewController.swift in Sources */,
 				10BBF6CD27FC4E4F00378AED /* StartScreenViewController.swift in Sources */,
 				10BBF6D327FC73F300378AED /* SignUpViewController.swift in Sources */,
+				107E0BDA2800055600F7B8B2 /* TagListView.swift in Sources */,
+				107E0BD92800055600F7B8B2 /* TagView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
